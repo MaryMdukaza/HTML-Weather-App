@@ -1,2 +1,2 @@
 # HTML-Weather-App
-Basic weather app made using HTML and CSS
+SheCodes Basics first project, creating a replica of a weather application using HTML and CSS
