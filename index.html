@@ -88,5 +88,18 @@
       <button>Change city</button>
       <p>Coded by Mary Mdukaza</p>
     </div>
+    <script>
+      function changeCity() {
+        let city = prompt("Enter your city");
+        let weather = prompt("Enter the weather");
+        let heading = document.querySelector("h1");
+        if (weather < 0) {
+          heading.innerHTML = `☹️ <br /> Currently ${weather}° in ${city}`;
+        } else {
+          heading.innerHTML = `😄 <br /> Currently ${weather}° in ${city}`;
+        }
+      }
+      document.querySelector("button").addEventListener("click", changeCity);
+    </script>
   </body>
 </html>
